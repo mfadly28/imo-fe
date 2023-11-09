@@ -1,0 +1,73 @@
+.card {
+    padding: 30px;
+    /*margin: 30px;*/
+    text-align: center;
+    /* width: calc(100% - 17rem); */
+    margin-left: 17rem;
+    transition: all 0.4s;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.col-3 .card {
+  margin-left: 10px;
+  height: 300px;
+  padding: 7px;
+}
+
+.col-4 .card {
+  margin-left: 10px;
+  height: 300px;
+  padding: 7px;
+}
+
+
+
+/*
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+} */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    .card {
+        width: 100%;
+        margin: 0;
+        padding: 10px
+    }
+    .card.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+.container {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+    font-size: 13px;
+}
+
+.scheduled-month {
+    background-color: rgb(0, 255, 0);
+    color: white;
+  }
+
